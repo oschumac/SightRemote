@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menu_status"
+            android:title="@string/status"
+            android:icon="@drawable/ic_status" />
+        <item android:title="@string/insulin">
+            <menu>
+                <item android:id="@+id/menu_bolus"
+                    android:icon="@drawable/ic_bolus"
+                    android:title="@string/bolus" />
+                <item android:id="@+id/menu_basal_rate"
+                    android:icon="@drawable/ic_basal_rate"
+                    android:title="@string/basal_rate" />
+                <item android:id="@+id/menu_temporary_basal_rate"
+                    android:icon="@drawable/ic_temporary_basal_rate"
+                    android:title="@string/temporary_basal_rate" />
+            </menu>
+        </item>
+        <item android:title="@string/pump_data">
+            <menu>
+                <item android:id="@+id/menu_catridge"
+                    android:title="@string/cartridge"
+                    android:icon="@drawable/ic_cartridge" />
+                <item android:id="@+id/menu_battery"
+                    android:title="@string/battery"
+                    android:icon="@drawable/ic_battery" />
+                <item android:id="@+id/menu_event_data"
+                    android:title="@string/event_data"
+                    android:icon="@drawable/ic_events" />
+                <item android:id="@+id/menu_bolus_data"
+                    android:title="@string/bolus_data"
+                    android:icon="@drawable/ic_bolus" />
+                <item android:id="@+id/menu_temporary_basal_rate_data"
+                    android:title="@string/tbr_data"
+                    android:icon="@drawable/ic_temporary_basal_rate" />
+                <item android:id="@+id/menu_daily_total"
+                    android:title="@string/daily_totals"
+                    android:icon="@drawable/ic_daily_total" />
+            </menu>
+        </item>
+        <item android:title="@string/other">
+            <menu>
+                <item android:id="@+id/menu_pump_info"
+                    android:icon="@drawable/ic_info"
+                    android:title="@string/pump_info" />
+                <item android:id="@+id/menu_configuration"
+                    android:title="@string/configuration"
+                    android:icon="@drawable/ic_configuration" />
+                <item android:id="@+id/menu_settings"
+                    android:title="@string/settings"
+                    android:icon="@drawable/ic_settings" />
+            </menu>
+        </item>
+    </group>
+</menu>

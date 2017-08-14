@@ -1,0 +1,24 @@
+package zbp.rupbe.sightparser;
+
+/**
+ * Created by Tebbe Ubben on 10.07.2017.
+ */
+
+public enum ErrorType {
+
+    COULD_NOT_VERIFY_CRC,
+    COULD_NOT_VERIFY_INTEGRITY,
+    INVALID_AUTH_VERSION,
+    INVALID_APP_VERSION,
+    PACKET_LENGTH_XOR_WRONG,
+    PAIRING_DENIED,
+    PAIRING_TIMEOUT,
+    APP_ERROR,
+    APP_CRC_ERROR,
+    KEY_EXCHANGE_ERROR,
+    COMMM_ID_ERROR,
+    CANT_CONNECT,
+    BROKEN_PIPE,
+    NONCE_ERROR
+
+}

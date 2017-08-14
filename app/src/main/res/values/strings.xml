@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Sight Remote</string>
+    <string name="go_back">Go back</string>
+    <string name="next">Next</string>
+    <string name="welcome">Welcome</string>
+    <string name="to_sight_remote">to Sight Remote</string>
+    <string name="i_agree_and_proceed">I agree and want to proceed</string>
+    <string name="paring_mode">Pairing mode</string>
+    <string name="make_sure_pairing_mode">Make sure your pump is in pairing mode and press \"Next\".</string>
+    <string name="pair_with_pump">Pair with your pump</string>
+    <string name="select_your_pump">Select your pump in the below list.</string>
+    <string name="error">Error</string>
+    <string name="retry">Retry</string>
+    <string name="confirm_code">Confirm code</string>
+    <string name="confirm_code_desc">Confirm the code your pump displays.</string>
+    <string name="searching">Searching...</string>
+    <string name="location_permission_required">Location permission required</string>
+    <string name="location_permission_required_desc">Location permission is required for bluetooth discovery.</string>
+    <string name="ok">OK</string>
+    <string name="permission_label">Sight Remote access</string>
+    <string name="permission_desc">Grant access to Sight Remote API Features.</string>
+    <string name="eula">This product is provided without warranty of any kind, so you use this at your own risk. Remote controlling the ACCU-CHEK® Insight insulin delivery pump with this software will only work if you have paired it with your phone. You have to consult a doctor before making any medical decisions or actions based on this or with this software. By accepting this end user license agreement you are willing to accept all responsibility for what could happen and you understand that there are no guarantees that using this application is safe or beneficial.</string>
+    <string name="exit">Exit</string>
+    <string name="open_navigation">Open navigation</string>
+    <string name="close_navigation">Close navigation</string>
+    <string name="pump_status">Pump status</string>
+    <string name="cartridge_and_battery">Cartridge and battery</string>
+    <string name="pending">Pending</string>
+    <string name="basal_unit">%1$.2fU/H</string>
+    <string name="insulin_unit">%1$.2fU</string>
+    <string name="battery_unit">%1$d%%</string>
+    <string name="time_formatter">HH:mm</string>
+    <string name="tbr_amount">%1$d%%</string>
+    <string name="active_boluses">Activate boluses</string>
+    <string name="amount">Amount</string>
+    <string name="duration">Duration</string>
+    <string name="extended">Extended</string>
+    <string name="add">Add</string>
+    <string name="connect">Connect</string>
+    <string name="connected">Connected</string>
+    <string name="enabled">Enabled</string>
+    <string name="automatic">Automatic</string>
+
+    <!-- Status -->
+    <string name="connecting">Connecting</string>
+    <string name="key_exchange">Exchanging keys</string>
+    <string name="binding">Binding</string>
+    <string name="pairing_completed">Pairing completed</string>
+    <string name="disconnected">Disconnected</string>
+    
+    <!-- Navigation -->
+    <string name="status">Status</string>
+    <string name="insulin">Insulin</string>
+    <string name="bolus">Bolus</string>
+    <string name="temporary_basal_rate">Temporary basal rate</string>
+    <string name="basal_rate">Basal rate</string>
+    <string name="pump_data">Pump data</string>
+    <string name="cartridge">Cartridge</string>
+    <string name="battery">Battery</string>
+    <string name="event_data">Event data</string>
+    <string name="bolus_data">Bolus data</string>
+    <string name="tbr_data">TBR data</string>
+    <string name="daily_totals">Daily totals</string>
+    <string name="other">Other</string>
+    <string name="configuration">Configuration</string>
+    <string name="pump_info">Pump info</string>
+    <string name="settings">Settings</string>
+
+    <!-- Pump status -->
+    <string name="started">Started</string>
+    <string name="stopped">Stopped</string>
+    <string name="paused">Paused</string>
+
+    <string name="user_profile">User profile</string>
+    <string name="signal_mode">Signal mode</string>
+    <string name="automatic_off">Automatic off</string>
+    <string name="timeout">Timeout</string>
+    <string name="blind_bolus_step_size">Blind bolus step size</string>
+    <string name="cartridge_warning_level">Cartridge warning level</string>
+    <string name="delivery_speed">Delivery speed</string>
+    <string name="display_orientation">Display orientation</string>
+    <string name="infusion_set_settings">Infusion set settings</string>
+    <string name="tubing">Tubing</string>
+    <string name="canulla">Canulla</string>
+    <string name="display_background_color">Display background color</string>
+
+    <string-array name="user_profiles">
+        <item>Standard</item>
+        <item>Expressive</item>
+        <item>Diminished</item>
+    </string-array>
+    <string-array name="signal_modes">
+        <item>Normal</item>
+        <item>Silent</item>
+        <item>Meeting</item>
+        <item>Loud</item>
+    </string-array>
+    <string-array name="step_sizes">
+        <item>0.10U</item>
+        <item>0.20U</item>
+        <item>0.50U</item>
+        <item>1.00U</item>
+        <item>2.00U</item>
+    </string-array>
+    <string-array name="delivery_speeds">
+        <item>Very slow</item>
+        <item>Slow</item>
+        <item>Moderate</item>
+        <item>Standard</item>
+    </string-array>
+    <string-array name="display_orientations">
+        <item>Normal</item>
+        <item>Rotated</item>
+    </string-array>
+</resources>
